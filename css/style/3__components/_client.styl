@@ -1,0 +1,30 @@
+.client
+	background-color var(--c-primary)
+	display flex
+	padding 10px 20px
+	align-items center
+	@media screen and (max-width 768px)
+		flex-wrap wrap
+		padding 40px 10px
+		text-align center
+	&__img
+		flex-basis 350px
+		text-align center
+		width 150px
+		height 150px
+		border-radius 50%
+		border 6px solid #fff
+		background-size cover
+		@media screen and (max-width 768px)
+			flex-basis auto
+			margin auto
+			margin-bottom 20px
+	&__content
+		flex auto
+		padding 10px 20px
+	&__text
+		color var(--c-white)
+	&__name
+		color #000
+		margin-top 16px
+		font-size 18px

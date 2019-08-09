@@ -1,0 +1,69 @@
+.card
+	padding 10px 20px
+	&__number
+		background-color rgba(#5E2CED,.2)
+		padding 10px
+		border-radius 50%
+		width 60px
+		height 60px
+		display flex
+		align-items center
+		justify-content center
+		color var(--c-primary)
+		font-size 24px
+	&__title
+		// font-family poppins-semibold
+		letter-spacing 1px
+		padding 10px 0
+		font-size 18px
+		margin-top 24px
+		color #212529
+	&__price
+		font-size 30px
+		// font-family poppins-black
+		margin 5px 0 20px 0
+		color var(--c-text)
+		&:before
+			content 'S/'
+			margin-right 5px
+	&__text
+		letter-spacing 1px
+		font-size 16px
+	&__button
+		background-color var(--c-primary)
+		color var(--c-white)
+		padding 12px 15px
+		display inline-block
+		width auto
+		text-align center
+		border-radius 2px
+		letter-spacing 2px
+		margin 16px 0
+		&:hover
+			text-decoration none
+			background-color lighten(#5E2CED,7)
+	&__icon
+		color var(--c-primary)
+		font-size 40px
+		background-color rgba(#5E2CED,.2)
+		width 100px
+		height 100px
+		border-radius 50%
+		display flex
+		justify-content center
+		align-items center
+		margin auto
+	&.price
+		border 1px solid #ccc
+		text-align center
+		padding 40px 20px
+		background-color #fff
+	&.imagen
+		border 1px solid #ccc
+		text-align center
+		padding 10px
+		background-color rgba(#fff)
+		display block
+		transition all .3s
+		&:hover
+			transform translateY(-20px)
