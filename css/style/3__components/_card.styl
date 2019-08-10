@@ -1,16 +1,16 @@
 .card
 	padding 10px 20px
 	&__number
-		background-color var(--c-primary)
-		padding 10px
+		// background-color var(--c-primary)
+		// padding 10px
 		border-radius 50%
-		width 60px
-		height 60px
+		width 30px
+		height 30px
 		display flex
 		align-items center
 		justify-content center
-		color var(--c-white)
-		font-size 24px
+		color var(--c-primary)
+		font-size 32px
 	&__title
 		font-family seminegrita
 		// letter-spacing 1px
@@ -71,7 +71,7 @@
 	&.imagen
 		border 1px solid #ccc
 		text-align center
-		padding 10px
+		padding 5px
 		background-color rgba(#fff)
 		display block
 		transition all .3s
@@ -82,3 +82,8 @@
 			// color #fff
 		&:hover
 			transform translateY(-20px)
+	&.text
+		.card__title
+			font-size 16px
+			font-family negrita
+			text-transform capitalize
