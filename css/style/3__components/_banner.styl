@@ -1,5 +1,5 @@
 .banner
-	background-image url('../img/superstudio.jpg')
+	background-image url('../img/cientifico.jpg')
 	background-size cover
 	background-position top
 	height 650px
@@ -21,7 +21,7 @@
 		z-index 1
 	&__title
 		text-transform uppercase
-		width 70%
+		width 100%
 		z-index 2
 		color var(--c-white)
 		font-size 54px
@@ -40,3 +40,22 @@
 		position relative
 		top -130px
 		width 100%
+	&__img
+		z-index 2
+		width 250px
+		// height 250px
+		display block
+		text-align center
+		margin auto
+		background-color #fff
+		border-radius 50%
+		margin 40px auto
+		margin-top 100px
+		@media screen and (max-width 768px)
+			width 200px
+			margin 20px auto
+			margin-top 80px
+			
+	&-container
+		z-index 2
+		text-align center

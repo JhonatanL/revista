@@ -70,20 +70,28 @@
 			text-align center
 	&.imagen
 		border 1px solid #ccc
-		text-align center
+		text-align end
 		padding 5px
 		background-color rgba(#fff)
-		display block
 		transition all .3s
 		// box-shadow 1px 1px 10px #222
 		.card__title
 			color var(--c-text)
-			margin 20px
+			margin-bottom 10px
+			text-align start
 			// color #fff
-		&:hover
-			transform translateY(-20px)
+		.card__text
+			font-size 14px
+			line-height 1.5
+			margin 14px 0
+		.card__button
+			margin 0
+			text-align end
+		// &:hover
+		// 	transform translateY(-20px)
 	&.text
 		.card__title
 			font-size 16px
 			font-family negrita
 			text-transform capitalize
+		
